@@ -4,8 +4,19 @@
 <h1>Hello World</h1>
 <p>I’m hosted with Github Pages.</p>
 
-<!-- add autoplay="" in video line if you want. size too big at width="1920" height="1080" -->   
+<!-- add autoplay="" in video line if you want. size too big at width="1920" height="1080" -->
+height: auto;
+width: 100%;
 <video controls loop="" muted = "">
   <source src="https://github.com/E-NOD/E-NOD.github.io/raw/refs/heads/main/ENOD_agile_decision_making.mp4"> 
 </video>
+
+<style>
+    video {
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+    }
+</style>  
 </body> </html>
